@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+	padding: 0;
+	background-image: url('../imagens/fundo.png');
+	font-family: Gill Sans MT, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+	}
+h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header img {
+	height:180px;
+	width:1150px;
+}
+p {
+	font-size: 5.4 em;
+	line-height: 5.4 em;
+}
+ul {
+	list-style-type: none;
+}
+a:link, a:visited {
+	color: #333;
+	background:#00BFFF;
+	text-decoration:none;
+
+}
+nav {
+	background:#00BFFF;
+	font-size:1.4 em;
+	margin-top:10px;
+	width:1152px;
+	margin-left:0;
+}
+/* CLASSES DO MENU DROPDOWN */
+.menu{
+list-style:none;  
+float:left; 
+background-color:#00BFFF;
+width:1137px;
+}
+.menu li{ /* LISTA NAV */
+position:relative; 
+float:center; 
+width:180px;
+background-color:#00BFFF;
+margin-left:3px;
+padding-top:1px;
+padding-left:75px;
+padding-right:75px;
+padding-bottom:1px;
+}
+.menu li  ul{ /* MENU DROPDOWN */
+position:absolute;
+top:15px; 
+display:none;
+text-align:left;
+padding-top:0%;
+margin-top:5%;
+}   
+.menu li:hover ul, .menu li.hover ul{display:block;}, {filter: alpha (opacity=65);}
+
+.menu li ul li{ /* LISTA DROPDOWN */
+width:200px;
+height:30px;
+font-size:0.8em;
+margin:left;
+float:left;
+margin-left:173%;
+border: 1px solid black;
+padding-top: 5px;
+padding-right: 5px;
+padding-left: 5px;
+}
+nav h1 { /* PARA NÃO GASTAR TEMPO E FICAR CRIANDO CLASSES PODEMOS UTILIZAR A SEÇÃO (nav, article, section, bottom) COM O ATRIBUTO NA FRENTE DAQUELA SESSÃO */
+    color:white;
+	
+}
+
+nav ul{
+	padding: 8px;
+	margin: 5px 0px 5px 0px;
+	font-size: 23px;
+	font-weight: bolder;
+	color:white;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 80px;
+	color:black;
+	font-size:25.5px;
+	}
+nav li a:link,nav li a:visited{
+    text-decoration:none;
+	color:black;
+	}
+
+nav li a:hover, nav li:hover {
+	color:white;
+}	
+	
+	/* SECTION PRINCIPAL DO SITE */
+section{ /* outra seção do site */
+	margin-left:150px;
+	padding: 20px;
+	width: 1160px;
+	background: #fff;
+	border: 3px solid #808080;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	
+}
+/* ARTICLE PRINCIPAL */
+
+article, aside {
+	width: 460px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	margin-top:-30px;
+}
+article {
+	float: left; /* foi jogado pra esquerda */
+	width:1140px;
+}
+article h1 {
+	font-size:4em;
+}
+
+article h2 {
+	font-size: 6em;
+	margin: 0 0 10px 0;
+}
+article h2.virgilio{
+	font-size:4em;
+}
+
+article p { /* parágrafo do artigo */
+	margin: 0 0 10px 0;
+	font-size:23px;
+
+}
+article p.selma {
+	text-align:center;
+}
+
+article ul {
+	margin: 80px 0 0 0;
+	font-size: 2.4em;
+	text-decoration:none;
+}
+article ul.linkvirgilio{
+	margin-top:0px;
+	font-size:30px;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+article h1.linkvirgilio{
+	font-size:35px;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+	text-decoration:none;
+}
+article a:link, article a:visited{
+	text-decoration:none;
+	background:white;
+}
+article a:hover{
+	color:grey;
+}
+article img{
+	width: 300px;
+	height: 300px;
+	margin-left:auto;
+	margin-right:20px;
+	float:left;
+}
+/* IMG DOS PROFESSORES */
+article img.fabiana {
+	width:420px;
+	height:300px;
+	padding:20px;
+	margin-left:60px;
+}
+article img.andrea {
+	width:490px;
+	height:380px;
+	margin-left:45px;
+}
+
+img.alexandre {
+	width:800px;
+	height:400px;
+	padding:10px;
+	padding-left:160px;
+	float:left;
+}
+img.ligia{
+	float:center;
+	width:600px;
+	height:400px;
+	padding-left:270px;
+}
+img.arquitetura{
+	float:left;
+	width:170px;
+	height:170px;
+}
+
+aside {
+	float: right;
+	background: #eee;
+	padding:20px;
+	margin:20px;
+	
+}
+
+aside h2 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 30px 0;
+	padding: 20px;
+	font-size:30px;
+}
+
+aside li {
+	margin: 0 10px 10px 0; /* são quatro pois representa os 4 cantos da margem */
+	float: left;
+	border: 4px solid #ddd;
+}
+
+aside img {
+height: 190px;
+width: 190px;
+}
+
+footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	margin:-12px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}
+	
