@@ -1,3 +1,4 @@
+/* CORPO DO SITE (REPETE NO OUTRO CSS) */
 body {
     margin: 0;
 	padding: 0;
@@ -12,10 +13,12 @@ h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
+/* IMAGEM DO CABEÇALHO (REPETE) */
 header img {
 	height:180px;
 	width:1150px;
 }
+/* PARAGRAFOS SIMPLES */
 p {
 	font-size: 5.4 em;
 	line-height: 5.4 em;
@@ -23,12 +26,14 @@ p {
 ul {
 	list-style-type: none;
 }
+/* ESTILO DE LINKS (REPETE NO OUTRO CSS) */
 a:link, a:visited {
 	color: #333;
 	background:#00BFFF;
 	text-decoration:none;
 
 }
+/* NAV (REPETE NO OUTRO CSS) */
 nav {
 	background:#00BFFF;
 	font-size:1.4 em;
@@ -36,14 +41,15 @@ nav {
 	width:1152px;
 	margin-left:0;
 }
-/* CLASSES DO MENU DROPDOWN */
+/* TODAS AS CLASSES DO MENU DROPDOWN */
 .menu{
 list-style:none;  
 float:left; 
 background-color:#00BFFF;
 width:1137px;
 }
-.menu li{ /* LISTA NAV */
+/* LISTA DO MENU NAV */
+.menu li{ 
 position:relative; 
 float:center; 
 width:180px;
@@ -54,7 +60,8 @@ padding-left:75px;
 padding-right:75px;
 padding-bottom:1px;
 }
-.menu li  ul{ /* MENU DROPDOWN */
+/* MENU DROPDOWN ESTRUTURA */
+.menu li  ul{ 
 position:absolute;
 top:15px; 
 display:none;
@@ -63,8 +70,8 @@ padding-top:0%;
 margin-top:5%;
 }   
 .menu li:hover ul, .menu li.hover ul{display:block;}, {filter: alpha (opacity=65);}
-
-.menu li ul li{ /* LISTA DROPDOWN */
+/* LISTA DO DROPDOWN */
+.menu li ul li{ 
 width:200px;
 height:30px;
 font-size:0.8em;
@@ -76,7 +83,8 @@ padding-top: 5px;
 padding-right: 5px;
 padding-left: 5px;
 }
-nav h1 { /* PARA NÃO GASTAR TEMPO E FICAR CRIANDO CLASSES PODEMOS UTILIZAR A SEÇÃO (nav, article, section, bottom) COM O ATRIBUTO NA FRENTE DAQUELA SESSÃO */
+/* PARA NÃO GASTAR TEMPO E FICAR CRIANDO CLASSES PODEMOS UTILIZAR A SEÇÃO (nav, article, section, bottom) COM O ATRIBUTO NA FRENTE DAQUELA SESSÃO */
+nav h1 { 
     color:white;
 	
 }
@@ -88,23 +96,23 @@ nav ul{
 	font-weight: bolder;
 	color:white;
 }
-
+/* LISTA DO NAV */
 nav li {
 	display: inline;
 	margin: 0 0 0 80px;
 	color:black;
 	font-size:25.5px;
 	}
+/* ESTILO LINK DO NAV */
 nav li a:link,nav li a:visited{
     text-decoration:none;
 	color:black;
-	}
-
+	} /* SOBRE O LINK */
 nav li a:hover, nav li:hover {
 	color:white;
 }	
 	
-	/* SECTION PRINCIPAL DO SITE */
+/* SECTION PRINCIPAL DO SITE */
 section{ /* outra seção do site */
 	margin-left:150px;
 	padding: 20px;
@@ -139,11 +147,11 @@ article h2 {
 article h2.virgilio{
 	font-size:4em;
 }
-
-article p { /* parágrafo do artigo */
+/* PARÁGRAFO DO ARTIGO */
+article p { 
 	margin: 0 0 10px 0;
 	font-size:23px;
-
+/* PARAGRAFO ESPECIAL SELMA */
 }
 article p.selma {
 	text-align:center;
@@ -154,6 +162,7 @@ article ul {
 	font-size: 2.4em;
 	text-decoration:none;
 }
+/* ESPECIAL VIRGILIO */
 article ul.linkvirgilio{
 	margin-top:0px;
 	font-size:30px;
@@ -167,13 +176,15 @@ article ul  li {
 	margin: 0 0 10px 0;
 	text-decoration:none;
 }
+/* ESTILO DE LINK DO ARTIGO DOS PROFESSORES */
 article a:link, article a:visited{
 	text-decoration:none;
 	background:white;
-}
+} /* SOBRE O LINK */
 article a:hover{
 	color:grey;
-}
+} 
+/* IMAGEM DO ARTIGO DOS PROFESSORES */
 article img{
 	width: 300px;
 	height: 300px;
@@ -181,7 +192,7 @@ article img{
 	margin-right:20px;
 	float:left;
 }
-/* IMG DOS PROFESSORES */
+/* IMAGEM DOS PROFESSORES */
 article img.fabiana {
 	width:420px;
 	height:300px;
@@ -212,13 +223,13 @@ img.arquitetura{
 	width:170px;
 	height:170px;
 }
-
+/* ASIDE DOS PROFESSORES */
 aside {
 	float: right;
 	background: #eee;
 	padding:20px;
 	margin:20px;
-	
+
 }
 
 aside h2 {
@@ -238,7 +249,7 @@ aside img {
 height: 190px;
 width: 190px;
 }
-
+/* RODAPÉ DOS PROFESSORES */
 footer {
 	clear: both;
 	background: #eee;
