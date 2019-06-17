@@ -9,6 +9,7 @@ body {
 	padding: 0;
 }
 
+/* CLASSE DAS BORDAS DA PÁGINA */
 .borda{
 	width: 80%
 	height: 100%;
@@ -17,17 +18,19 @@ body {
 	background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* IMAGEM DO CABEÇALHO */
 header img{
 	width: 90%;
 	height: 40%;
 	margin: 3% 5%;
 }
 
+/* LISTA DO MENU DE NAVEGAÇÃO */
 ul{
 	list-style-type: none;
 }
 
-
+/* INICIO DO MENU NAV */
 .menu{
 	display: inline-block;
 	width: 100%;
@@ -55,7 +58,10 @@ ul{
  	cursor: pointer;
   	border-bottom: 2px solid #D3D3D3;
  }
+ /* FIM DO MENU NAV */
 
+
+/* TITULOS DAS SECTIONS */
  #Home h2, #Fatec h2, #Contato h2, #Hobbies h2{
  	font-family: 'Arial', sans-serif;
  	font-size: 2em;
@@ -63,12 +69,14 @@ ul{
  	margin: 3%;
  }
 
+/* IMAGEM DA SECTION HOME */
  #Home img{
  	width: 20%;
  	padding:0 3%;
  	float: left;
  }
 
+/* PARAGRAFOS DAS SECTIONS */
  #Home p, #Fatec p, #Hobbies p{
  	font-family: 'Verdana';
  	font-size: 1.5em;	
@@ -76,6 +84,7 @@ ul{
  	margin: 2% 3%;
  }
 
+/* SECTION DA GALERIA DE IMAGENS DA FATEC */
  #Galeria{
  	display: flex;
  	flex-wrap:wrap;
@@ -83,6 +92,7 @@ ul{
  	flex-flow: row wrap;
  }
 
+/* GALERIA DE IMAGENS DA FATEC */
  #Galeria img{
  	width:30%;
  	height:40vh;
@@ -90,11 +100,21 @@ ul{
  	margin:5% auto;
  	flex: auto;
  }
+
+/* SECTION DA FATEC */
+ #Fatec {
+ 	padding-top: 4%;
+ 	padding-bottom: 4%;
+ }
+
+ /* SECTION DOS JOGOS */
  #Jogos{
  	display: flex;
  	flex-direction: row wrap;
  	flex: 1;
  }
+
+ /* IMAGENS DA SECTION JOGOS */
  #Jogos img{
  	width:30%;
  	height:40vh;
@@ -102,6 +122,7 @@ ul{
  	margin:3% auto;
  }
 
+/* CLASSE PARA O LINK DE ACESSO AO SITE FATEC */
  .linkfatec{
  	color: #000000;
 	font-size: 1em;
@@ -122,21 +143,18 @@ ul{
  	transition: 500ms linear;
  }
 
- #Contato p{
- 	text-align: center;
- 	padding: 1%;
- }
- form{
- 	width: 50%;
- 	margin: 1% auto;
- }
+/* TITULO DO CONTATO */
+#Contato h3{
+	text-align: center;
+}
 
- fieldset{
- 	padding: 2%;
- }
+/* ESPAÇAMENTO DA SECTION CONTATO */
+#Contato {
+	padding-bottom: 4%;
+	padding-top: 4%;
+}
 
 /* FOOTER */ 
-
 footer{
   clear: both;
   border-top: solid 2px #696969;
@@ -147,12 +165,14 @@ footer{
   margin: 0;
 }
 
+/* PARAGRAFO DO RODAPÉ */
 footer p{
   text-align: center;
   margin: 2% auto;
   padding: 0;
 }
 
+/* BREAKPOINT PARA 768px */
 @media (max-width: 768px) {
 
 	.menu {
@@ -196,3 +216,4 @@ footer p{
 		align-items: center;
 	}
 }
+/* FIM DO BREAKPOINT */
